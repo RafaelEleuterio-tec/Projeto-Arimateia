@@ -37,6 +37,14 @@ a{
 }
 
 /*Textos cabeçarioa*/  
+.texto1{
+    background-image: url(/assets/imagens/sua\ logo\ agui.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 653px;
+
+}
 
 .texto{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -49,21 +57,25 @@ a{
     row-gap: 27px;
     flex-shrink: 0;
     flex-wrap: wrap;
-    background-color: rgb(7, 22, 238);
-    background-image:radial-gradient(rgb(64, 5, 242),rgb(3, 3, 3));
+   
+    /* background-color: rgb(7, 22, 238);
+    background-image:radial-gradient(rgb(64, 5, 242),rgb(3, 3, 3)); */
    
    
 }
 .brand_textoH1{
     color: #F7FFD5;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: normal;
-    margin:10px 16px 16px 16px;
+    margin: 10px 16px 16px 16px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
 }
 .brand_textoH2{
     color: #F7FFD5;
-    font-weight: 200;
+    font-weight: 600;
     line-height: normal;
     margin:10px 16px 16px 16px;
     font-size: 25px;
@@ -73,11 +85,11 @@ a{
 .texto_icon{
     display: flex;
     width: 100%;
+    height: 300px;
     font-size: 45px;
     padding: 16px 5px;
     justify-content: space-between;
-    align-items: center;
-    flex-shrink: 0;
+    align-items: flex-end;
 }
 
 .icon_link:hover{
@@ -107,8 +119,8 @@ a{
 }
 
 .d-block{
-    width: 70%;
-    height: 480px;
+    width: 62%;
+    height: 462px;
 }
 
 /* Texto Clientes*/
@@ -253,13 +265,23 @@ div.gallery {
         
         font-size: 25px;
     }
+    .texto1{
+        height: 604px;
+    }
     .texto_imagem{
         width: 300px;
+    }
+    .texto_icon{
+        align-items: center;
     }
     div.gallery {
         align-items: center;
         width: 200px;
       }
+      .gallery_vid{
+        width: 100%;
+      }
+
     .pagamento{
         height: 134px;
         margin: 0.5rem;
